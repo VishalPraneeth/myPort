@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  .body{
+    background-color: "#E6E6FA";
+    font-family: 'Lora';
+  }
+  .heading-blog {
+    background: url('../images/blog3.jpeg'); 
+    height: 333px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .heading  h1{
+    font-size: 70px;
+    margin-top: 10px;
+    margin-left: 50px;
+    color: #404040;
+  }
+
+  .blog-paragraph {
+    margin: auto;
+    width: 60%;
+    padding: 50px;
+  }
+  .img1 {
+    margin: 20px;
+  }
+  .para-init, .task-list, .activity-1, .activity-2, .work-left, .last-para, .activity-completed p, li, i {
+    word-spacing: 4px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  #particles-js {
+    background:red;
+  }
