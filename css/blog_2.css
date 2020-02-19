@@ -1,4 +1,8 @@
-/* --- General Pen Styles --- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
 body{
 	font-family: Georgia, serif;
 	color: #333;
@@ -6,8 +10,10 @@ body{
 	line-height: 2rem;
 }
 a{color: #000;}
-h1{
-	font-size: 2.6rem;
+ h1{
+    margin-top: 20px;
+    margin-bottom: 40px;
+	font-size: 3.6rem;
 	line-height: 2.6rem;
 }
 .content{
@@ -15,6 +21,12 @@ h1{
 	max-width: 90%;
 	width: 720px;
 }
+.heading-blog {
+    background: url('../images/blog3.jpeg'); 
+    height: 333px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 main{
 	padding: 1% 0;
 	position: relative;
@@ -22,7 +34,6 @@ main{
 	box-shadow: 0px -10px 60px rgba(0,0,0,0.25);
 		height: 100%;
 }
-/* --- Important Pen Styles --- */
 @media (max-width: 667px) {
 	h1{
 		font-size: 1.8rem;
