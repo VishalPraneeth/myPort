@@ -515,6 +515,18 @@ margin-left: 10px;}
     bordeR: 1px solid #000;
     padding: 2px 10px; }
 
+    .hired {
+      padding: 2em;
+      background: rgb(244, 106, 47); }
+      .hire h2 {
+        line-height: 1.5; }
+      .hire .btn-hire {
+        color: #000;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        bordeR: 1px solid #000;
+        padding: 2px 10px; }    
+
 .fancy-collapse-panel .panel-default > .panel-heading {
   padding: 0; }
 
