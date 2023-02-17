@@ -131,3 +131,14 @@ particlesJS('particles-js',
   }
 
 );
+
+const srtop = ScrollReveal({
+  origin: "top",
+  distance: "80px",
+  duration: 1000,
+  reset: true
+})
+
+// srtop.reveal('.colorlib-experience', {delay: 200})
+// srtop.reveal('.colorlib-experience .row', {delay: 400})
+// srtop.reveal('.colorlib-experience .row .col-md-6', {delay: 600})
